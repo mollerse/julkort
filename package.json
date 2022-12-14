@@ -1,0 +1,39 @@
+{
+  "name": "julkort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "Stian Møllersen <stian.moellersen@gmail.com>",
+  "license": "CC-BY-NC-SA-4.0",
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-plugin-p5js": "^1.0.0",
+    "prettier": "^2.8.1",
+    "vite": "^4.0.1"
+  },
+  "dependencies": {
+    "p5": "^1.5.0"
+  },
+  "prettier": {},
+  "eslintConfig": {
+    "plugins": [
+      "p5js"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:p5js/p5"
+    ],
+    "env": {
+      "browser": true,
+      "p5js/p5": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module"
+    }
+  }
+}
